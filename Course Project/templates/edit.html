@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+    <title>Добавить голубя</title>
+    <link rel="shorcut icon" href="/css/img/page1.png">
+    <link rel="stylesheet" type="text/css" href="/css/edit_style.css" media="screen"/>
+    
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet"> -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_logo"><p>MyPage</p></div>
+                <input type="checkbox" id="check-menu">
+                <label for="check-menu" class="label-menu"></label>
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <div class="burger-line fourth"></div>
+                <nav class="main-menu">
+                    <div class="topnav">
+                        <a href="#">LINK1</a>
+                        <a href="#">LINK2</a>
+                        <a href="#">LINK3</a>
+                        <a href="#">LINK4</a>
+                        <a href="#">LINK5</a>
+                        <a href="#">LINK6</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    <main class="main">
+        <div class="text-content text1">
+            <!-- <div class="img-content"> -->
+                <h3 class="namepage">Редактировать голубя №{{.Id}}</h3>
+        <form method="POST" class="form">
+            <div class="info">
+            <input type="hidden" name="id" value="{{.Id}}" class="input"/>
+            <label>Имя</label><br>
+            <input type="text" name="name" value="{{.Name}}" class="input"/><br><br>
+            <label>Порода</label><br>
+            <input type="text" name="breed" value="{{.Breed}}" class="input"/><br><br>
+            <label>Уровень милоты</label><br>
+            <input type="number" name="cute" value="{{.Cute}}" class="input"/><br><br>
+            <!-- <form enctype="multipart/form-data" method="POST">
+            <input type="file" name="image" accept="image/*,image/jpeg"><br><br>
+            </form> -->
+            <input type="submit" value="Сохранить" class="link"/>
+            <p>
+                <a href="/" class="link">Назад</a>
+            </p>
+        </div>
+        </form>
+            <!-- </div> -->
+            <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+        </div>
+
+        <!-- <div class="text-content text2">
+            <div class="img-content">
+              <picture>
+              <source class="picture-content1 pic1" srcset="/css/img/pinkdove.jpg" media="(min-width: 992px)">
+                <source class="picture-content1 pic2" srcset="/css/img/pinkdove2.jpg" media="(min-width: 380px)">
+                <img class="picture-content1 pic3" src="/css/img/pinkdove3.jpg" alt="Flowers" style="width:auto;">
+            </picture>
+          </div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora id quaerat quisquam dolore earum eaque reiciendis eos, repellat mollitia animi?
+        </div>
+        <div class="text-content text3">
+            <div class="img-content">
+              <picture>
+              <source class="picture-content1 pic1" srcset="/css/img/blooddove.jpg" media="(min-width: 992px)">
+                <source class="picture-content1 pic2" srcset="/css/img/blooddove.jpg" media="(min-width: 380px)">
+                <img class="picture-content1 pic3" src="/css/img/blooddove.jpg" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae doloribus, magni nobis sequi natus ea vel quis delectus dolorum.
+        </div>
+        <div class="text-content text4">
+            <div class="img-content">
+              <picture>
+              <source class="picture-content1 pic1" srcset="/css/img/whitedove.jpg" media="(min-width: 992px)">
+                <source class="picture-content1 pic2" srcset="/css/img/whitedove.jpg" media="(min-width: 380px)">
+                <img class="picture-content1 pic3" src="/css/img/whitedove.jpg" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="text-content text5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div> -->
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            The best pigeon site ©2021
+        </div>
+    </footer>
+</div>
+</body>
+
+
+</html>
